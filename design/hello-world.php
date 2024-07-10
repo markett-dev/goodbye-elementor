@@ -38,6 +38,13 @@
     }
 
     @media (orientation: portrait) {
+        .hello-world {
+            height: auto;
+            padding-bottom: 60px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
         .hello-world .container {
             display: block;
             padding-left: 20px;
@@ -52,7 +59,7 @@
 <!-- ///////////////////////// UI
 /////////////////////////////////////////////// -->
 <section class="hello-world">
-    
+
     <div class="title-box">
         <h1 class="title">How it works</h1>
         <h1 class="subtitle">The fast way to create landingpages </h1>
