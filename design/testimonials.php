@@ -4,8 +4,8 @@
     .testimonials{
         padding-top: 5%;
         padding-bottom: 5%;
-        padding-left: 15%;
-        padding-right: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
         background-color: #eee;
     }
 

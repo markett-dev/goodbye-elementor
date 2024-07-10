@@ -9,7 +9,13 @@
     }
 
     .whatsapp img{
-        width: 60px;
+        width: 100px;
+    }
+
+    @media (orientation: portrait) {
+        .whatsapp img{
+            width: 60px;
+        }
     }
 </style>
 
@@ -24,6 +30,6 @@ $whatsappHello = "Hello";
 
 <div class="whatsapp">
     <a href="https://wa.me/<?php echo $whatsappNum; ?>" target="_blank">
-        <img src="images/icon-whatsapp.png">
+        <img src="media/icon-whatsapp.png">
     </a>
 </div>

@@ -9,10 +9,11 @@
         <meta name="viewport" content="width=device-width, user-scalable=no" />
 
         <meta name="theme-color" content="#000" />
-        <link rel="icon" type="image/svg+xml" href="images/favicon.png" />
+        <link rel="icon" type="image/svg+xml" href="media/favicon.png" />
 
         <!-- ENGINE -->
         <link rel="stylesheet" href="design-system.css" />
+        <link rel="stylesheet" href="design/engine/vov.min.css">
         <link rel="stylesheet" href="design/engine/swiper-bundle.min.css"/>
         <script src="https://unpkg.com/@phosphor-icons/web"></script>
         <script src="design/engine/jquery.min.js"></script>
@@ -40,7 +41,9 @@
         <!-- UI UX -->
         <?php
 
+        include "design/logo.php";
         include "design/hello-world.php";
+        include "design/video-1-1.php";
         include "design/testimonials.php";
         include "design/modal.php";
 

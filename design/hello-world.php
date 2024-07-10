@@ -4,18 +4,18 @@
     .hello-world {
         height: auto;
         padding-bottom: 60px;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 
     .hello-world .container {
-        max-width: 1200px;
-        margin: 0 auto;
         display: flex;
         gap: 30px;
     }
 
     .hello-world .container .column {
         background-color: var(--c2light);
-        border-radius: 20px;
+        border-radius: 30px;
         padding: 30px;
     }
 
@@ -23,14 +23,13 @@
         color: var(--c1dark);
         text-align: center;
         font-size: 80px;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
 
     .hello-world .container .column h1 {
         color: var(--c1light);
         font-size: 32px;
         font-weight: 700;
-        padding-bottom: 10px;
     }
     .hello-world .container div p {
         color: var(--light);

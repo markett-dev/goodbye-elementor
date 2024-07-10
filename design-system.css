@@ -209,8 +209,8 @@ TITLES
 .title-box{
     text-align: center;
     color: var(--c1dark);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 @media (orientation: portrait) {
@@ -329,7 +329,7 @@ FIX
 body,
 html {
     margin: 0;
-    line-height: 1.2;
+    line-height: 0;
 }
 
 h1,
