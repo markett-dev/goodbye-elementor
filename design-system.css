@@ -82,6 +82,32 @@ BUTTONS
     background-color: var(--c2light);
 }
 
+.btn-mini{
+    background-color: var(--c1dark);
+    color: aliceblue;
+    width: auto;
+    height: 30px;
+    border-radius: 30px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    transition: background-color 0.5s ease-in-out;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn-mini:hover {
+    color: var(--c2light);
+    background-color: var(--c2dark);
+}
+
 .btn-cta{
     background-color: var(--c1dark);
     color: aliceblue;

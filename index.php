@@ -41,7 +41,8 @@
         <!-- UI UX -->
         <?php
 
-        include "design/logo.php";
+        include "design/navigation-classic.php";
+        include "design/superbanner.php";
         include "design/hello-world.php";
         include "design/video-1-1.php";
         include "design/testimonials.php";
