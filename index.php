@@ -4,7 +4,7 @@
 
 
 - GOODBYE ELEMENTOR
-<?php echo $version = "0.5"; ?>
+<?php echo $version = "0.6"; ?>
 
 
 ////////////////////////////////////////////////
@@ -21,18 +21,8 @@
         <meta charset="utf-8" />
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, user-scalable=no" />
-
         <meta name="theme-color" content="#000" />
-        <link rel="icon" type="image/svg+xml" href="media/favicon.png" />
-
-        <!-- ENGINE -->
-        <link rel="stylesheet" href="design-system.css" />
-        <link rel="stylesheet" href="design/engine/vov.min.css">
-        <link rel="stylesheet" href="design/engine/swiper-bundle.min.css"/>
-        <script src="https://unpkg.com/@phosphor-icons/web"></script>
-        <script src="design/engine/jquery.min.js"></script>
-        <script src="design/engine/swiper-bundle.min.js"></script>
-        <script src="design/engine/engine.js"></script>
+        <link rel="icon" type="image/svg+xml" href="media/favicon.webp" />
 
         <!-- SEO -->
         <meta name="description" content="Insert here a concise and relevant description of the page. This description will appear in search results." />
@@ -49,6 +39,17 @@
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@your_twitter_username" />
 
+        <!-- ENGINE -->
+        <link rel="stylesheet" href="design-system.css" />
+        <link rel="stylesheet" href="design/engine/vov.min.css">
+        <link rel="stylesheet" href="design/engine/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <script src="design/engine/jquery.min.js"></script>
+        <script src="design/engine/swiper-bundle.min.js"></script>
+        <script src="design/engine/engine.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     </head>
     <body>
 
@@ -66,11 +67,16 @@
         include "design/discount.php";
         include "design/video-1-1.php";
         include "design/faq.php";
+        include "design/modal.php";
 
         ?>
 
         <!-- CUSTOM SCRIPTS -->
-        <script type="text/javascript">
+        <script>
+            Fancybox.bind('[data-fancybox="gallery"]', {
+                //
+            }); 
+
             init();
         </script>
     </body>
