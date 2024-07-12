@@ -60,10 +60,7 @@
         <p>
             Claro, aqui vai um texto aleatório para você: "Num universo de possibilidades infinitas, 
             onde as estrelas dançam em galáxias desconhecidas e os ventos sussurram segredos ancestrais, 
-            encontramos a essência da existência. Entre sonhos tecidos com fios de luz e esperança, 
-            navegamos pelos mares do tempo, onde cada onda é uma história por contar e cada estrela 
-            cadente é um desejo em busca de realização. No silêncio profundo da noite estelar, 
-            os pensamentos ecoam como constelações distantes, formando padrões de significados entrelaçados.
+            encontramos a essência da existência. 
         </p>
 
         <div class="space30h"></div>

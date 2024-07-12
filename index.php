@@ -1,7 +1,21 @@
+<!-- ///////////////////////////////////////////////
+///////////////////////////////////////////////////
+//////////////////////////////////////////////////
+
+
+- GOODBYE ELEMENTOR
+<?php echo $version = "0.5"; ?>
+
+
+////////////////////////////////////////////////
+///////////////////////////////////////////////
+////////////////////////////////////////////// -->
+
+
 <!doctype html>
 <html lang="en">
     <head>
-        <title>Goodbye Elementor</title>
+        <title>Goodbye Elementor </title>
 
         <!-- CONFIG -->
         <meta charset="utf-8" />
@@ -41,15 +55,17 @@
         <!-- UI UX -->
         <?php
 
-        include "design/navigation-classic.php";
-        include "design/superbanner.php";
-        include "design/hello-world.php";
+        include "design/logo.php";
+        include "design/video-filter.php";
         include "design/video-1-1.php";
+        include "design/image-gallery.php";
+        include "design/video-gallery.php";
+        include "design/video-1-1.php";
+        include "design/company.php";
         include "design/testimonials.php";
-        include "design/modal.php";
-
-        include "design/whatsapp.php";
-        include "design/cookies.php";
+        include "design/discount.php";
+        include "design/video-1-1.php";
+        include "design/faq.php";
 
         ?>
 
