@@ -76,9 +76,9 @@
 
             <h1>Pure CSS/HTML5</h1>
             <p>
-                Claro, aqui vai um texto aleatório para você: "Num universo de possibilidades infinitas, onde as
-                estrelas dançam em galáxias desconhecidas e os ventos sussurram segredos ancestrais, encontramos a
-                essência da existência. 
+                Creating effective content for your company is crucial in today's digital landscape. 
+                Whether you're writing a blog post, crafting social media updates, or refining website copy, 
+                the goal remains the same: engage your audience and establish a strong brand presence.
             </p>
         </div>
 
@@ -89,12 +89,9 @@
 
             <h1>UI/UX</h1>
             <p>
-                Claro, aqui vai um texto aleatório para você: "Num universo de possibilidades infinitas, onde as
-                estrelas dançam em galáxias desconhecidas e os ventos sussurram segredos ancestrais, encontramos a
-                essência da existência. Entre sonhos tecidos com fios de luz e esperança, navegamos pelos mares do
-                tempo, onde cada onda é uma história por contar e cada estrela cadente é um desejo em busca de
-                realização. No silêncio profundo da noite estelar, os pensamentos ecoam como constelações distantes,
-                formando padrões de significados entrelaçados.
+                Creating effective content for your company is crucial in today's digital landscape. 
+                Whether you're writing a blog post, crafting social media updates, or refining website copy, 
+                the goal remains the same: engage your audience and establish a strong brand presence.
             </p>
         </div>
 
@@ -105,12 +102,9 @@
 
             <h1>No Plugins</h1>
             <p>
-                Claro, aqui vai um texto aleatório para você: "Num universo de possibilidades infinitas, onde as
-                estrelas dançam em galáxias desconhecidas e os ventos sussurram segredos ancestrais, encontramos a
-                essência da existência. Entre sonhos tecidos com fios de luz e esperança, navegamos pelos mares do
-                tempo, onde cada onda é uma história por contar e cada estrela cadente é um desejo em busca de
-                realização. No silêncio profundo da noite estelar, os pensamentos ecoam como constelações distantes,
-                formando padrões de significados entrelaçados.
+                Creating effective content for your company is crucial in today's digital landscape. 
+                Whether you're writing a blog post, crafting social media updates, or refining website copy, 
+                the goal remains the same: engage your audience and establish a strong brand presence.
             </p>
         </div>
     </div>

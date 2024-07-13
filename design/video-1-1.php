@@ -7,6 +7,12 @@
         padding-right: 10%;
         padding-top: 5%;
         padding-bottom: 5%;
+        color: var(--c1dark);
+    }
+    
+    .video-1-1 p{
+        color: var(--c2dark);
+        line-height: 1.2 !important;
     }
 
     .video-1-1 video{
@@ -20,13 +26,16 @@
         justify-content: center;
         padding-left: 10%;
         padding-right: 10%;
+        text-align: justify;
     }
 
     @media (orientation: portrait) {
         .video-1-1{
             display: block;
-            padding-left: 10px;
-            padding-right: 10px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
 
         .video-1-1 video{
@@ -48,7 +57,7 @@
 
 <!-- ///////////////////////// UI
 /////////////////////////////////////////////// -->
-<div class="video-1-1">
+<section class="video-1-1">
     <div>
         <video src="media/1-1.mp4" autoplay muted loop controls></video>
     </div>
@@ -58,12 +67,12 @@
         <div class="space30h"></div>
 
         <p>
-            Claro, aqui vai um texto aleatório para você: "Num universo de possibilidades infinitas, 
-            onde as estrelas dançam em galáxias desconhecidas e os ventos sussurram segredos ancestrais, 
-            encontramos a essência da existência. 
+            Creating effective content for your company is crucial in today's digital landscape. 
+            Whether you're writing a blog post, crafting social media updates, or refining website copy, 
+            the goal remains the same: engage your audience and establish a strong brand presence.
         </p>
 
         <div class="space30h"></div>
         <a href="#" class="btn">Your call to action</a>
     </div>
-</div>
+</section>

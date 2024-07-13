@@ -53,7 +53,7 @@ BUTTONS
 
 .btn:hover {
     color: var(--c2light);
-    background-color: var(--c2dark);
+    background-color: var(--color);
 }
 
 .btn-alt {
@@ -208,16 +208,22 @@ TITLES
 
 *********************************************/
 
+.title-super{
+    font-size: 70px;
+    font-weight: bolder !important;
+    line-height: .9 !important;
+}
+
 .title {
     font-size: 50px;
     font-weight: bolder !important;
-    line-height: 0.9;
+    line-height: .9 !important;
 }
 
 .subtitle{
     font-size: 26px;
     font-weight: 500 !important;
-    line-height: 0.9;
+    line-height: .9 !important;
     padding-top: 5px;
 }
 
@@ -230,7 +236,7 @@ TITLES
 
 @media (orientation: portrait) {
     .title {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .subtitle{
@@ -242,8 +248,8 @@ TITLES
         color: var(--c1dark);
         padding-top: 60px;
         padding-bottom: 60px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 }
@@ -332,6 +338,7 @@ FIX
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    line-height: 0 !important;
 }
 
 ::selection {
@@ -345,6 +352,7 @@ FIX
 body,
 html {
     margin: 0;
+    padding: 0;
     line-height: 0;
 }
 
@@ -359,7 +367,6 @@ h6 {
     margin-inline-start: 0;
     margin-inline-end: 0;
     font-weight: normal;
-    line-height: 1.2;
 }
 
 p {
@@ -368,7 +375,6 @@ p {
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
-    line-height: 1.2;
 }
 
 small {
@@ -377,7 +383,7 @@ small {
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
-    line-height: 1.2;
+    
 }
 
 strong {
@@ -385,18 +391,16 @@ strong {
     margin-block-end: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;
-    line-height: 1.2;
 }
 
 a {
     transition: color 0.5s ease-in-out;
     text-decoration: underline;
     cursor: pointer;
-    line-height: 1.2;
 }
 
 a:hover {
-    color: var(--c3);
+    color: var(--c1dark);
 }
 
 button {
@@ -411,7 +415,7 @@ ul {
     margin-inline-start: 0;
     margin-inline-end: 0;
     padding-inline-start: 0;
-    line-height: 1.2;
+    line-height: 1.2 !important;
 }
 
 hr {
@@ -423,5 +427,5 @@ hr {
     margin-inline-end: auto;
     overflow: hidden;
     border-style: none;
-    border-width: 0;
+    border-width: 1;
 }

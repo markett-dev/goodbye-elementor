@@ -4,7 +4,7 @@
 
 
 - GOODBYE ELEMENTOR
-<?php echo $version = "0.6"; ?>
+<?php echo $version = "0.7"; ?>
 
 
 ////////////////////////////////////////////////
@@ -60,15 +60,22 @@
         include "design/video-filter.php";
         include "design/video-1-1.php";
         include "design/image-gallery.php";
-        include "design/video-gallery.php";
+        include "design/video-youtube.php";
         include "design/video-1-1.php";
         include "design/company.php";
-        include "design/testimonials.php";
         include "design/discount.php";
         include "design/video-1-1.php";
         include "design/faq.php";
         include "design/modal.php";
 
+        ?>
+        
+        <!-- WIDGETS -->
+        <?php
+        
+        include "design/widget-cookies.php";
+        include "design/widget-whatsapp.php";
+        
         ?>
 
         <!-- CUSTOM SCRIPTS -->

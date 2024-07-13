@@ -1,11 +1,6 @@
 <!-- ///////////////////////// CUSTOM CSS
 /////////////////////////////////////////////// -->
 <style>
-    .swiper{
-        width: 100%;
-        height: 100%;
-    }
-
     .image-gallery-slide {
         background-size: cover;
         width: 100%;
@@ -23,34 +18,30 @@
     .image-gallery-9 { background-image: url(media/image-gallery9.webp); }
     .image-gallery-10 { background-image: url(media/image-gallery10.webp); }
 
-    .swiper-button-next, .swiper-button-prev{
+    .image-gallery .swiper-button-next, .swiper-button-prev{
         color: var(--c1light) !important;
         background-color: var(--c1dark);
         border-radius: 20px;
     }
 
-    .swiper-button-next:after, .swiper-button-prev:after{
+    .image-gallery .swiper-button-next:after, .swiper-button-prev:after{
         font-size: 12px;
     }
 
-    .swiper-pagination-bullet{
+    .image-gallery .swiper-pagination-bullet{
         background: white !important;
     }
 
-    .swiper-pagination-bullet-active{
+    .image-gallery .swiper-pagination-bullet-active{
         background-color: var(--color) !important;
     }
 
 
     @media (orientation: portrait) {
-        .testimonials{
-            padding-top: 10%;
-            padding-left: 5%;
-            padding-right: 5%;
-        }
-
-        .testimonials .swiper-pagination{
-            margin-bottom: 10px;
+        .image-gallery-slide {
+            background-size: cover;
+            width: 100%;
+            height: 60vh;
         }
     }
 </style>
@@ -97,8 +88,6 @@
             <div class="swiper-slide">
                 <a href="media/image-gallery10.webp" data-fancybox="gallery"><div class="image-gallery-slide image-gallery-10"></div></a>
             </div>
-
-
 
         </div>
 

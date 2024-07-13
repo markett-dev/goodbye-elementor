@@ -28,6 +28,7 @@
         width: 100%;
         height: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         z-index: 3;
@@ -46,9 +47,12 @@
 
 <!-- ///////////////////////// UI
 /////////////////////////////////////////////// -->
-<div class="video-filter">
+<section class="video-filter">
     <div class="video-filter-content">
-        Your text here
+        <h1 class="title">Your title here</h1>
+        <h1 class="subtitle">Your subtitle here</h1>
+        <div class="space30h"></div>
+        <a class="btn">Your CTA here</a>
     </div>
 
     <!--MIZAKE GRADIENT v1 -->
@@ -60,4 +64,4 @@
 
     <video src="media/16-9.mp4" class="video-filter-desktop" autoplay muted loop></video>
     <video src="media/9-16.mp4" class="video-filter-mobile" autoplay muted loop></video>
-</div>
+</section>

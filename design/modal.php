@@ -8,6 +8,11 @@
         flex-direction: column;
         width: 100%;
         height: 30vh;
+        background: linear-gradient(0deg, var(--c1dark) 0px, var(--color));
+    }
+    
+    .modal-cta h1{
+        color: var(--c2light);
     }
 
     #modal-example .modal-content{

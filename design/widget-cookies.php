@@ -24,6 +24,8 @@
 
     .cookies-card p{
         padding-bottom: 10px;
+        color: var(--c2dark);
+        line-height: 1.2 !important;
     }
 
     @media (orientation: portrait) {

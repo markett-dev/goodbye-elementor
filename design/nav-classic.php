@@ -158,6 +158,8 @@
     </div>
 </nav>
 
+<!-- ///////////////////////// CUSTOM SCRIPTS
+/////////////////////////////////////////////// -->
 <script type="text/javascript">
     $(".nav-classic-mobile-menu").hide();
 

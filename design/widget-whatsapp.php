@@ -30,6 +30,6 @@ $whatsappHello = "Hello";
 
 <div class="whatsapp">
     <a href="https://wa.me/<?php echo $whatsappNum; ?>" target="_blank">
-        <img src="media/icon-whatsapp.png">
+        <img src="media/icon-whatsapp.webp">
     </a>
 </div>

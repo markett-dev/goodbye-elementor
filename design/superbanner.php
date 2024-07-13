@@ -16,7 +16,7 @@
 
 <!-- ///////////////////////// UI
 /////////////////////////////////////////////// -->
-<div class="superbanner">
+<section class="superbanner">
     <div class="superbanner-desktop">
         <img src="media/superbanner-desktop.png">
     </div>
@@ -24,4 +24,4 @@
     <div class="superbanner-mobile">
         <img src="media/superbanner-mobile.png">
     </div>
-</div>
+</section>

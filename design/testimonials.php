@@ -29,7 +29,7 @@
         padding-top: 50px;
         padding-bottom: 50px;
     }
-    
+
     .testimonial-box p{
         padding-bottom: 10px;
     }
@@ -50,6 +50,9 @@
         padding-bottom: 10px;
     }
 
+    .testimonials .swiper-pagination-testimonials{
+        text-align: center;
+    }
     .testimonials .swiper-pagination-bullet{
         background: var(--c1dark) !important;
         width: 15px;
@@ -65,6 +68,7 @@
         text-align: center;
         font-size: 10px;
         text-transform: uppercase;
+        padding-top: 30px;
     }
 
     .testimonials-info a{
@@ -165,12 +169,11 @@
 
         </div>
 
-        <div class="space40h"></div>
-        <div class="swiper-pagination"></div>
+        <div class="swiper-pagination-testimonials"></div>
     </div>
 
     <div class="testimonials-info">
-        Infos about verifyed testimonials. 
+        Insert information about verified testimonials here.
     </div>
 </section>
 
@@ -188,7 +191,7 @@
         },
 
         pagination: {
-            el: ".swiper-pagination",
+            el: ".swiper-pagination-testimonials",
             clickable: true,
         },
 
